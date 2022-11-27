@@ -54,7 +54,7 @@
             service apache2 status
         SHELL
         ```
-    Konfigurasi ini dipakai untuk menginstall paket dan menjalankan perintah yang tersedia di sistem operasi.
+        Konfigurasi ini dipakai untuk menginstall paket dan menjalankan perintah yang tersedia di sistem operasi.
 
 7. Test apache webserver
     - Jalankan: `vagrant up`
