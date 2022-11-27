@@ -80,6 +80,8 @@
     config.vm.network "public_network"
     ```
 
+    Dengan konfigurasi di atas, kamu dapat mengakses apache webserver dengan membuka http://192.168.33.10 dari browser.
+
 9. Mengganti Memori dan CPU  
     Cari `config.vm.provider` dan update memori dan CPU:
     ```ruby
