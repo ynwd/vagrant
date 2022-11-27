@@ -93,3 +93,7 @@
         vb.cpus = 1
     end
     ```
+
+10. Recreate VM after update
+    - Jangan lupa untuk menjalankan `vagrant destroy` setelah melakukan perubahan di `Vagrantfile`.
+    - Setelah itu jalankan `vagrant up` lagi untuk provisioning.
