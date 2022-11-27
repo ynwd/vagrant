@@ -97,3 +97,4 @@
 10. Recreate VM after update
     - Jangan lupa untuk menjalankan `vagrant destroy` setelah melakukan perubahan di `Vagrantfile`.
     - Setelah itu jalankan `vagrant up` lagi untuk provisioning.
+    - Bisa juga dengan menjalankan `vagrant reload`.
